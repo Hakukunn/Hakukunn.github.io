@@ -29,7 +29,7 @@
 
 
 
-![义乌](https://github.com/Hakukunn/Hakukunn.github.io/blob/main/yiwu.jpg)
+![yiwu](https://github.com/Hakukunn/Hakukunn.github.io/blob/main/yiwu.jpg)
 
 [义乌介绍](https://baike.baidu.com/item/%E4%B9%89%E4%B9%8C/214555?fr=aladdin)
 
