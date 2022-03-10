@@ -1,5 +1,6 @@
 ## Welcome to Yiwu
-
+<html>
+<body>
 
 <!DOCTYPE html>
 <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />  
@@ -19,3 +20,6 @@ map.centerAndZoom(point, 15);
 window.setTimeout(function(){  
     map.panTo(new BMap.Point(116.409, 39.918));    
 }, 2000);
+
+</body>
+</html>
