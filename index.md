@@ -9,12 +9,12 @@
 	<script type="text/javascript" src="//api.map.baidu.com/api?v=2.0&ak=LXpXl6bnXk8EPypPqxwu1CL1s2j0jLU9"></script>
 	<title>地图展示</title>
 </head>
-<body>
+
 	<div id="allmap"></div>
 	<p>义乌</p>
         <img src="C:\Users\mac\Desktop//yiwu.jpg"height="300"/>
 	<a href="https://baike.baidu.com/item/%E4%B9%89%E4%B9%8C/214555?fr=aladdin">义乌介绍</a>
-</body>
+
 </html>
 <script type="text/javascript">
 	// 百度地图API功能
