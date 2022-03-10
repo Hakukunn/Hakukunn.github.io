@@ -14,6 +14,7 @@
 	<p>义乌</p>
         <img src="C:\Users\mac\Desktop//yiwu.jpg"height="300"/>
 	<a href="https://baike.baidu.com/item/%E4%B9%89%E4%B9%8C/214555?fr=aladdin">义乌介绍</a>
+	<hr />
 </body>
 </html>
 <script type="text/javascript">
