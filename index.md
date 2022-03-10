@@ -25,5 +25,10 @@
 	map.setCurrentCity("义乌");          // 设置地图显示的城市 此项是必须设置的
 	map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
 </script>
-##        <img src="C:\Users\mac\Desktop//yiwu.jpg"height="300"/>
+       <img src="C:\Users\mac\Desktop//yiwu.jpg"height="300"/>
 	<a href="https://baike.baidu.com/item/%E4%B9%89%E4%B9%8C/214555?fr=aladdin">义乌介绍</a>
+
+## 义乌介绍
+
+你可以点击 [义乌介绍](https://baike.baidu.com/item/%E4%B9%89%E4%B9%8C/214555?fr=aladdin) 来了解义乌的有关信息~
+
