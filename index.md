@@ -1,6 +1,3 @@
-	###义乌
-        <img src="C:\Users\mac\Desktop//yiwu.jpg"height="300"/>
-	<a href="https://baike.baidu.com/item/%E4%B9%89%E4%B9%8C/214555?fr=aladdin">义乌介绍</a>
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -28,3 +25,5 @@
 	map.setCurrentCity("义乌");          // 设置地图显示的城市 此项是必须设置的
 	map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
 </script>
+##        <img src="C:\Users\mac\Desktop//yiwu.jpg"height="300"/>
+	<a href="https://baike.baidu.com/item/%E4%B9%89%E4%B9%8C/214555?fr=aladdin">义乌介绍</a>
