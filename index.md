@@ -3,7 +3,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 	<style type="text/css">
-	body, html,#allmap {width: 100%;height: 100%;overflow:scroll;margin:0;font-family:"微软雅黑";}
+	    body, html,#allmap {width: 100%;height: 100%;overflow:scroll;margin:10;font-family:"微软雅黑";}
 	</style>
 	<script type="text/javascript" src="//api.map.baidu.com/api?v=2.0&ak=LXpXl6bnXk8EPypPqxwu1CL1s2j0jLU9"></script>
 	<title>地图展示</title>
@@ -28,5 +28,6 @@
 <br>
 <br>
 ![yiwu](https://github.com/Hakukunn/Hakukunn.github.io/blob/main/yiwu.jpg)
+
 [义乌介绍](https://baike.baidu.com/item/%E4%B9%89%E4%B9%8C/214555?fr=aladdin)	
 
