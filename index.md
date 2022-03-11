@@ -28,7 +28,11 @@
 
 
 ##义乌
-<img src="https://github.com/Hakukunn/Hakukunn.github.io/blob/main/yiwu.jpg" width="16px">
+
+![yiwu](https://github.com/Hakukunn/Hakukunn.github.io/blob/main/yiwu.jpg)
+
+      
+//<img src="https://github.com/Hakukunn/Hakukunn.github.io/blob/main/yiwu.jpg" width="16px">
 
 [义乌介绍](https://baike.baidu.com/item/%E4%B9%89%E4%B9%8C/214555?fr=aladdin)
 
