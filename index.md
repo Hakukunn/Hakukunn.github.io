@@ -3,7 +3,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 	<style type="text/css">
-	body, html,#allmap {width: 100%;height: 100%;scroll: hidden;margin:10;font-family:"微软雅黑";}
+	body, html,#allmap {width: 100%;height: 100%;overflow:scroll;margin:0;font-family:"微软雅黑";}
 	</style>
 	<script type="text/javascript" src="//api.map.baidu.com/api?v=2.0&ak=LXpXl6bnXk8EPypPqxwu1CL1s2j0jLU9"></script>
 	<title>地图展示</title>
@@ -15,8 +15,8 @@
 <script type="text/javascript">
 	// 百度地图API功能
 	var map = new BMap.Map("allmap");    // 创建Map实例
-	map.centerAndZoom(new BMap.Point(120.081007,29.451391), 11);  // main初始化地图,设置中心点坐标和地图级别
-	//添加地图类型控件
+	map.centerAndZoom(new BMap.Point(120.085606,29.531872), 11);  // main初始化地图,设置中心点坐标和地图级别
+	//添加地图类型控件原先(120.081007,29.451391)
 	map.addControl(new BMap.MapTypeControl({
 		mapTypes:[
             BMAP_NORMAL_MAP,
