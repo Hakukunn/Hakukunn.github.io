@@ -27,12 +27,10 @@
         ]}));	  
 	map.setCurrentCity("义乌");          // 设置地图显示的城市 此项是必须设置的
 	map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
-	
-
-}    
-var infoWindow = new BMap.InfoWindow("World", opts);  // 创建信息窗口对象    
-map.openInfoWindow(infoWindow, map.getCenter());      // 打开信息窗口
 </script>
 
+<br>
+<br>
+![yiwu](https://github.com/Hakukunn/Hakukunn.github.io/blob/main/yiwu.jpg)
 
-
+[义乌介绍](https://baike.baidu.com/item/%E4%B9%89%E4%B9%8C/214555?fr=aladdin)	
