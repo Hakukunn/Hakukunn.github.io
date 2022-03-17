@@ -1,73 +1,36 @@
-<!DOCTYPE html>
 <html>
+
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
 	<style type="text/css">
-		body, html {width: 100%;height: 100%;margin:0;font-family:"微软雅黑";}
-		#allmap{width:100%;height:500px;}
-		p{margin-left:5px; font-size:14px;}
-	</style>
-	<script type="text/javascript" src="//api.map.baidu.com/api?v=2.0&ak=您的密钥"></script>
-	<title>纯文本的信息窗口</title>
-</head>
-<body>
-	<div id="allmap"></div>
-	<p>点击标注点，可查看由纯文本构成的简单型信息窗口</p>
-</body>
-</html>
-<script type="text/javascript">
-	// 百度地图API功能
-	var map = new BMap.Map("allmap");
-	var point = new BMap.Point(<!DOCTYPE html>
-<html>
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-	<style type="text/css">
-		body, html {width: 100%;height: 100%;margin:0;font-family:"微软雅黑";}
-		#allmap{width:100%;height:500px;}
-		p{margin-left:5px; font-size:14px;}
+	    body, html,#allmap {width: 100%;height: 100%;overflow:scroll;margin:10;font-family:"微软雅黑";}
 	</style>
 	<script type="text/javascript" src="//api.map.baidu.com/api?v=2.0&ak=LXpXl6bnXk8EPypPqxwu1CL1s2j0jLU9"></script>
-	<title>纯文本的信息窗口</title>
+	<title>地图展示</title>
 </head>
-<body>
+
+
 	<div id="allmap"></div>
-	<p>点击标注点，可查看由纯文本构成的简单型信息窗口</p>
-</body>
+
 </html>
+
 <script type="text/javascript">
 	// 百度地图API功能
-	var map = new BMap.Map("allmap");
-	var point = new BMap.Point(116.417854,39.921988);
-	var marker = new BMap.Marker(point);  // 创建标注
-	map.addOverlay(marker);              // 将标注添加到地图中
-	map.centerAndZoom(point, 15);
-	var opts = {
-	  width : 200,     // 信息窗口宽度
-	  height: 100,     // 信息窗口高度
-	  title : "海底捞王府井店" , // 信息窗口标题
-	  enableMessage:true,//设置允许信息窗发送短息
-	  message:"亲耐滴，晚上一起吃个饭吧？戳下面的链接看下地址喔~"
-	}
-	var infoWindow = new BMap.InfoWindow("地址：北京市东城区王府井大街88号乐天银泰百货八层", opts);  // 创建信息窗口对象 
-	marker.addEventListener("click", function(){          
-		map.openInfoWindow(infoWindow,point); //开启信息窗口
-	});
-</script>);
-	var marker = new BMap.Marker(point);  // 创建标注
-	map.addOverlay(marker);              // 将标注添加到地图中
-	map.centerAndZoom(point, 15);
-	var opts = {
-	  width : 200,     // 信息窗口宽度
-	  height: 100,     // 信息窗口高度
-	  title : "海底捞王府井店" , // 信息窗口标题
-	  enableMessage:true,//设置允许信息窗发送短息
-	  message:"亲耐滴，晚上一起吃个饭吧？戳下面的链接看下地址喔~"
-	}
-	var infoWindow = new BMap.InfoWindow("地址：北京市东城区王府井大街88号乐天银泰百货八层", opts);  // 创建信息窗口对象 
-	marker.addEventListener("click", function(){          
-		map.openInfoWindow(infoWindow,point); //开启信息窗口
-	});
+	var map = new BMap.Map("allmap");    // 创建Map实例
+	map.centerAndZoom(new BMap.Point(120.085606,29.531872), 11);  // main初始化地图,设置中心点坐标和地图级别
+	//添加地图类型控件原先(120.081007,29.451391)
+	map.addControl(new BMap.MapTypeControl({
+		mapTypes:[
+            BMAP_NORMAL_MAP,
+            BMAP_HYBRID_MAP
+        ]}));	  
+	map.setCurrentCity("义乌");          // 设置地图显示的城市 此项是必须设置的
+	map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
 </script>
+
+<br>
+<br>
+![yiwu](https://github.com/Hakukunn/Hakukunn.github.io/blob/main/yiwu.jpg)
+
+[义乌介绍](https://baike.baidu.com/item/%E4%B9%89%E4%B9%8C/214555?fr=aladdin)	
