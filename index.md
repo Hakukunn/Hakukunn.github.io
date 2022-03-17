@@ -1,33 +1,33 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
-	<style type="text/css">
-	    body, html,#allmap {width: 100%;height: 100%;overflow:scroll;margin:10;font-family:"微软雅黑";}
-	</style>
-	<script type="text/javascript" src="//api.map.baidu.com/api?v=2.0&ak=LXpXl6bnXk8EPypPqxwu1CL1s2j0jLU9"></script>
-	<title>地图展示</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+        body, html, #allmap {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            margin: 0;
+            font-family: "微软雅黑";
+        }
+    </style>
+    <script type="text/javascript" src="//api.map.baidu.com/api?type=webgl&v=1.0&ak=GAx6DkvjPf1zXCjGDDcGhjN4rCDYIwml"></script>
+    <title>计网作业 唐渝 3190104975</title>
 </head>
-
-	<div id="allmap"></div>
-
+<body>
+    <div id="allmap"></div>
+</body>
 </html>
 <script type="text/javascript">
-	// 百度地图API功能
-	var map = new BMap.Map("allmap");    // 创建Map实例
-	map.centerAndZoom(new BMap.Point(120.085606,29.531872), 11);  // main初始化地图,设置中心点坐标和地图级别
-	//添加地图类型控件原先(120.081007,29.451391)
-	map.addControl(new BMap.MapTypeControl({
-		mapTypes:[
-            BMAP_NORMAL_MAP,
-            BMAP_HYBRID_MAP
-        ]}));	  
-	map.setCurrentCity("义乌");          // 设置地图显示的城市 此项是必须设置的
-	map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
-	
-	var point = new BMapGL.Point(120.085606,29.531872);
-    
-	var marker = new BMapGL.Marker(point);  // 创建标注
+
+    // 百度地图API功能
+    var map = new BMapGL.Map("allmap");    // 创建Map实例
+    map.centerAndZoom(new BMapGL.Point(105.33, 30.10), 11);  // 初始化地图,设置中心点坐标和地图级别
+    map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+
+    var point = new BMapGL.Point(105.33, 30.10);
+    var marker = new BMapGL.Marker(point);  // 创建标注
     map.addOverlay(marker);              // 将标注添加到地图中
 
     var sContent =
@@ -45,9 +45,5 @@
         };
     });
 </script>
-<br>
-<br>
-![yiwu](https://github.com/Hakukunn/Hakukunn.github.io/blob/main/yiwu.jpg)
 
-[义乌介绍](https://baike.baidu.com/item/%E4%B9%89%E4%B9%8C/214555?fr=aladdin)	
 
