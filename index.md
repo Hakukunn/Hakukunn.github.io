@@ -34,7 +34,7 @@
     var sContent =
 "<h4 style='margin:0 0 5px 0;padding:0.2em 0'>义乌</h4>" +
 "<img style='float:right;margin:4px' id='imgDemo' src='https://p8.itc.cn/q_70/images01/20210531/13599242b1bd4da98ca42fe2b0ff3b9c.jpeg' width='200' height='104' title='义乌市场'/>" +
-"<a style='color:#87CEFA;text-decoration:none;' href='https://baike.baidu.com/item/%E4%B9%89%E4%B9%8C/214555?fr=aladdin'>更多信息见百度百科</ a>"
+"<a style='color:#87CEFA;text-decoration:none;' href='https://baike.baidu.com/item/%E4%B9%89%E4%B9%8C/214555?fr=aladdin'>更多信息点击此处</ a>"
     "</div>";
 
     var infoWindow = new BMapGL.InfoWindow(sContent);     // marker添加点击事件
