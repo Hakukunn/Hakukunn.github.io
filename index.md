@@ -1,4 +1,4 @@
-点击红色地标，了解相关信息~
+<!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -15,6 +15,7 @@
     <script type="text/javascript" src="//api.map.baidu.com/api?type=webgl&v=1.0&ak=LXpXl6bnXk8EPypPqxwu1CL1s2j0jLU9"></script>
     <title></title>
 </head>
+    点击红色地标，查看具体信息~
 <body>
     <div id="allmap"></div>
 </body>
