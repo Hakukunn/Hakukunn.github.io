@@ -37,9 +37,5 @@ var infoWindow = new BMap.InfoWindow("World", opts);  // 创建信息窗口对�
 map.openInfoWindow(infoWindow, map.getCenter());      // 打开信息窗口
 </script>
 
-<br>
-<br>
-![yiwu](https://github.com/Hakukunn/Hakukunn.github.io/blob/main/yiwu.jpg)
 
-[义乌介绍](https://baike.baidu.com/item/%E4%B9%89%E4%B9%8C/214555?fr=aladdin)	
 
