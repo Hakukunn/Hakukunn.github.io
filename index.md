@@ -24,6 +24,26 @@
         ]}));	  
 	map.setCurrentCity("义乌");          // 设置地图显示的城市 此项是必须设置的
 	map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+	
+	var point = new BMapGL.Point(120.085606,29.531872);
+    
+	var marker = new BMapGL.Marker(point);  // 创建标注
+    map.addOverlay(marker);              // 将标注添加到地图中
+
+    var sContent =
+"<h4 style='margin:0 0 5px 0;padding:0.2em 0'>四川省安岳县</h4>" +
+"<img style='float:right;margin:4px' id='imgDemo' src='https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fqqpublic.qpic.cn%2Fqq_public%2F0%2F0-389664588-23F05694EF4EF5F518A3A02A8582A206%2F0%3Ffmt%3Djpg%26amp%3Bsize%3D88%26amp%3Bh%3D531%26amp%3Bw%3D900%26amp%3Bppv%3D1&refer=http%3A%2F%2Fqqpublic.qpic.cn&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1649837609&t=66b2e95871444d049e9947aedbc9d464' width='200' height='104' title='安岳柠檬基地' width='200' height='104' title='安岳县圆觉洞'/>" +
+"<p style='margin:0;line-height:1.5;font-size:13px;text-indent:2em'>安岳县，隶属四川省资阳市，位于四川盆地中部，成渝经济区腹心和成都、重庆的直线中点，誉“成渝之心”；地跨东经104°56′51″～105°45′14″，北纬29°40′32″～30°18′53″之间</p >" + "<a style='color:#87CEFA;text-decoration:none;' href=' '>更多信息见百度百科</ a>"
+    "</div>";
+
+    var infoWindow = new BMapGL.InfoWindow(sContent);     // marker添加点击事件
+    marker.addEventListener('click', function () {
+        this.openInfoWindow(infoWindow);
+        // 图片加载完毕重绘infoWindow
+        document.getElementById('imgDemo').onload = function () {
+            infoWindow.redraw(); // 防止在网速较慢时生成的信息框高度比图片总高度小，导致图片部分被隐藏
+        };
+    });
 </script>
 <br>
 <br>
