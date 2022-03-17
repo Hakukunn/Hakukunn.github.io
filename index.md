@@ -27,6 +27,14 @@
         ]}));	  
 	map.setCurrentCity("义乌");          // 设置地图显示的城市 此项是必须设置的
 	map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+	
+	var opts = {    
+    width : 250,     // 信息窗口宽度    
+    height: 100,     // 信息窗口高度    
+    title : "义乌介绍"  // 信息窗口标题   
+}    
+var infoWindow = new BMap.InfoWindow("World", opts);  // 创建信息窗口对象    
+map.openInfoWindow(infoWindow, map.getCenter());      // 打开信息窗口
 </script>
 
 <br>
