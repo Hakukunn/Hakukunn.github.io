@@ -1,5 +1,4 @@
-
-<!DOCTYPE html>
+点击红色地标，了解相关信息~
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
